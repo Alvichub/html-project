@@ -1,0 +1,154 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    grid-template-rows: auto  1fr;
+}
+*{
+    box-sizing: border-box;
+}
+    
+header{
+    padding: 0.2rem 1.3rem; 
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 3.5rem;
+}
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.mic{
+    height: 1.5rem;
+}
+.mic-wrapper{
+    height: 2.8rem;
+    width: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.u2b{
+    height: 50px;
+}
+
+
+
+.input-container{
+    display: flex;
+    align-items: center;
+}
+.input-container input
+
+.mic-wrapper :hover{
+height: 2.8rem;
+width: 2.8rem;
+background-color: azure;
+cursor: pointer;
+border-radius: 100%;
+}
+
+
+
+.hide-search-wrapper{
+    display: none;
+}
+ .input input{
+    border-bottom: none;
+    outline: none;
+    flex: 1;
+    height: 100;
+    padding-left: 0.8rem;
+    width: 20rem;
+
+ }.user-wrapper{
+    display: flex;
+    gap: 1rem;
+}
+.user{
+    height: 2.8rem;
+    width: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(125, 56, 56);
+    border-radius: 100%;
+}
+.user p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+ main{
+    display: grid;
+    grid-template-columns: 17% 15fr;
+
+} 
+.side-nav{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+.side-nav .home-wrapper div{
+display: flex;
+gap: 1rem;
+padding-left: 1 rem;
+
+}
+.your-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.3rem;
+}
+.your-wrapper div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.your-icon{
+    height: 26px;
+}
+.home-container{
+    margin-left: 1.3rem;
+    border-bottom: 1px solid rgb(167, 164, 164);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     gap: 13rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 2rem;
+    padding-left: 1.3rem;
+}
+.main .video-card img{
+    border-radius: 16px;
+    height: 16rem;
+}
+.img-disk{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+.video-card .img-desc img {
+    width: 2rem;
+    height: 2rem;
+    border-radius:100%;
+    object-fit: cover;
+}
+
+.img-desc desc{
+    margin: 5%;
+}
