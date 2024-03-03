@@ -16,9 +16,10 @@ header{
 }
 
 nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 350px 600px 250px 600px;
+     justify-content: space-between; 
+     align-items: center; 
 }
 .logo{
     height: 3.5rem;
@@ -28,58 +29,60 @@ nav{
     align-items: center;
     gap: 1rem;
 }
-.mic{
-    height: 1.5rem;
-}
 .mic-wrapper{
-    height: 2.8rem;
-    width: 2.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    position: relative;
+    
+     
 }
+#searh-box{
+     position: absolute;
+    right: 15px;
+    height: 36px;
+    justify-self:center;
+    
+}
+input{
+    height: 2.5rem;
+    width: 35rem;
+    border: 1px solid rgb(red, green, blue);
+    background-color: transparent;
+    border-radius: 2rem;
+    position: relative;
+}
+.button-input{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
 
 .u2b{
     height: 50px;
 }
 
-
-
 .input-container{
     display: flex;
-    align-items: center;
+    
 }
 .input-container input
 
-.mic-wrapper :hover{
-height: 2.8rem;
-width: 2.8rem;
-background-color: azure;
-cursor: pointer;
-border-radius: 100%;
-}
-
-
-
-.hide-search-wrapper{
-    display: none;
-}
- .input input{
+.input input{
     border-bottom: none;
     outline: none;
     flex: 1;
     height: 100;
     padding-left: 0.8rem;
     width: 20rem;
-
+    
  }.user-wrapper{
     display: flex;
     gap: 1rem;
+    
 }
 .user{
-    height: 2.8rem;
-    width: 2.8rem;
+    height: 2rem;
+    width: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,65 +93,148 @@ border-radius: 100%;
     font-size: 1rem;
     font-weight: 400;
     color: white;
+    
 }
+.btn-wrapper{
+    
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 18rem;
+    padding-top: 1rem;
+
+    
+    
+}
+.btn1>p{
+    padding: 3px 2 2 3px;
+    
+}
+.btn1{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 6px;
+    
+}
+.btn2{
+    width: 3rem;
+    border-radius: 5px;
+    height: 1.5rem;
+    
+}
+.btn3{
+    width: 5rem;
+    border-radius: 5px;
+    height: 1.5rem;
+}
+.btn4{
+    width: 7rem;
+    border-radius: 5px;
+    height: 1.5rem;
+    
+}
+.btn2{
+    width: 3rem;
+    border-radius: 5px;
+    height: 1.5rem;
+    
+}
+.btn5{
+    width: 3rem;
+    border-radius: 5px;
+    height: 1.5rem;
+    
+}
+    
+
+.btn6{
+    width: 6rem;
+    border-radius: 5px;
+    height: 1.5rem;
+}
+.btn7{
+    width: 12rem;
+    border-radius: 5px;
+    height: 1.5rem;
+}
+.btn8{
+    width: 4rem;
+    border-radius: 5px;
+    height: 1.5rem;
+    
+}
+.btn9{
+    width: 7rem;
+    border-radius: 8px;
+    height: 1.5rem;
+}
+.btn0{
+    width: 4rem;
+    border-radius: 5px;
+    height: 1.5rem;
+}
+
  main{
-    display: grid;
-    grid-template-columns: 17% 15fr;
+    display: flex;
 
 } 
 .side-nav{
-    background-color: red;
+    
     display: flex;
     flex-direction: column;
+    
+
 }
 .side-nav .home-wrapper div{
 display: flex;
 gap: 1rem;
-padding-left: 1 rem;
+padding-left: 5 rem;
 
 }
-.your-wrapper{
+.you-wrapper{
     display: flex;
     flex-direction: column;
-    padding-left: 1.3rem;
+    padding-left: 1rem;
 }
-.your-wrapper div{
+.you-wrapper div{
     display: flex;
     gap: 1rem;
     align-items: center;
 }
-.your-icon{
-    height: 26px;
-}
-.home-container{
-    margin-left: 1.3rem;
-    border-bottom: 1px solid rgb(167, 164, 164);
-}
-.main{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-     gap: 13rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-top: 2rem;
-    padding-left: 1.3rem;
-}
+
 .main .video-card img{
-    border-radius: 16px;
-    height: 16rem;
+    border-radius: 10px;
+    height: 12rem;
+    width: 22rem;
+    margin: 1rem;
 }
-.img-disk{
-    display: flex;
-    align-items: center;
-    gap: 10rem;
-}
+
 .video-card .img-desc img {
     width: 2rem;
     height: 2rem;
     border-radius:100%;
     object-fit: cover;
+
+    
 }
 
-.img-desc desc{
-    margin: 5%;
+.img-desc{
+    display: flex;
+    position: relative;
+
 }
+h3{
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+    
+}
+p{
+    font-size: smaller;
+    max-width: 70%;
+}
+.labels{
+    display: flex;
+    
+}
+
+
